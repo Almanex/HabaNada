@@ -21,7 +21,7 @@ HabaNada ist eine Browser-Erweiterung der nächsten Generation für Google Chrom
 - **Benachrichtigungs- und Belästigungsblocker (Annoyances)** — Überschreibt die native Push-Benachrichtigungs-API des Browsers, um störende Popups zu verhindern, und blockiert aufdringliche Newsletter-Overlays mithilfe eines DOM-Eltern-Suchalgorithmus.
 - **Lokale KI gegen Clickbait** — Verwendung der integrierten Chrome-API `window.ai.languageModel` zur Klassifizierung und zum Umschreiben sensationeller Clickbait-Schlagzeilen.
 - **Unabhängige Funktionssteuerung** — Separate Schalter zur Steuerung der Werbeblockierung (pro Domain) und des Clickbait-Schutzes (global), die eine unabhängige Konfiguration ermöglichen.
-- **Mehrsprachigkeit** — Vollständig lokalisierte Popup-Benutzeroberfläche, die automatisch die Sprache des Browsers erkennt und Deutsch, Englisch, Russisch, Spanisch und Französisch unterstützt.
+- **Mehrsprachigkeit & Themenunterstützung** — Vollständig lokalisierte Popup-Benutzeroberfläche (Deutsch, Englisch, Russisch, Spanisch und Französisch) mit automatischer Anpassung an das helle oder dunkle Browserthema.
 
 ---
 
