@@ -1,0 +1,10 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Automated tests and local test artifacts
+tests/
+
+# Workspace metadata and agent settings
+.agent/
+_metadata/

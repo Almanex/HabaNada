@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HabaNada</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <img src="../icons/icon48.png" alt="HabaNada" class="logo-icon">
+        <h1 class="logo-text">HabaNada</h1>
+      </div>
+      <span class="version">v1.0.0</span>
+    </header>
+
+    <div class="card">
+      <div class="domain-row">
+        <span class="domain-label" id="lbl-current-domain">Current domain</span>
+        <span id="domain-name" class="domain-name">loading...</span>
+      </div>
+
+      <div class="toggle-row">
+        <span class="toggle-label" id="lbl-shield-active">Block ads</span>
+        <label class="toggle-switch">
+          <input type="checkbox" id="toggle-enabled" checked>
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <div class="toggle-row">
+        <span class="toggle-label" id="lbl-anti-clickbait">Rewrite clickbait</span>
+        <label class="toggle-switch">
+          <input type="checkbox" id="toggle-clickbait" checked>
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <div class="status-row">
+        <div class="ai-status">
+          <span id="ai-indicator" class="indicator indicator--offline"></span>
+          <span id="ai-label" class="status-label">AI: Checking...</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card stats-card">
+      <h2 class="card-title" id="lbl-on-this-page">On this page</h2>
+      <div class="stats-grid">
+        <div class="stat">
+          <span id="stat-blocked" class="stat-value">0</span>
+          <span class="stat-label" id="lbl-ads-hidden">Ads hidden</span>
+        </div>
+        <div class="stat">
+          <span id="stat-rewritten" class="stat-value">0</span>
+          <span class="stat-label" id="lbl-rewritten">Rewritten</span>
+        </div>
+      </div>
+      <div class="total-stats-row">
+        <span id="lbl-total-hidden">Total hidden: <strong id="total-blocked">0</strong></span>
+        <span id="lbl-total-rewritten">Total rewritten: <strong id="total-rewritten">0</strong></span>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <span class="footer-text" id="lbl-footer">Powered by Gemini Nano</span>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
