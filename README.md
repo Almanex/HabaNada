@@ -1,3 +1,6 @@
+<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/b2e7e7d7-3d3d-4ecc-b18a-a469cafaa3af" />
+
+
 # HabaNada
 
 *Hybrid ad blocker and AI-powered clickbait rewriter Chrome extension utilizing on-device Gemini Nano.*
