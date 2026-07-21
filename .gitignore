@@ -8,3 +8,6 @@ tests/
 # Workspace metadata and agent settings
 .agent/
 _metadata/
+
+# Build and release archives
+*.zip
