@@ -1,8 +1,12 @@
 <div align="center">
   <img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/b2e7e7d7-3d3d-4ecc-b18a-a469cafaa3af" />
-</div>
+
 
 # <div align="center">HabaNada</div>
+  
+[README_RU](docs/README_RU.md) | [README_DE](docs/README_DE.md) | [README_EN](README.md) | [GUIDE_RU](docs/GUIDE_RU.md) | [GUIDE_DE](docs/GUIDE_DE.md) | [GUIDE_EN](docs/GUIDE_EN.md)
+
+
 
 *Hybrid ad blocker and AI-powered clickbait rewriter Chrome extension utilizing on-device Gemini Nano.*
 
@@ -10,6 +14,7 @@
 [![Platform: Chrome Extension](https://img.shields.io/badge/Platform-Chrome%20Extension-orange.svg)](https://developer.chrome.com/)
 [![Engine: Gemini Nano](https://img.shields.io/badge/Engine-Gemini%20Nano-purple.svg)](https://developer.chrome.com/docs/ai/built-in)
 
+</div>
 ---
 
 ## Overview
