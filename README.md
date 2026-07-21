@@ -1,4 +1,6 @@
-<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/b2e7e7d7-3d3d-4ecc-b18a-a469cafaa3af" />
+<div align="center">
+  <img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/b2e7e7d7-3d3d-4ecc-b18a-a469cafaa3af" />
+</div>
 
 
 # HabaNada
